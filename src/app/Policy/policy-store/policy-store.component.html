@@ -1,0 +1,27 @@
+<div>
+    <div class="container"></div>
+    <div class="card">
+        <div class="card-header">
+            Add Policy
+        </div>
+        <div class="card-body">
+
+            
+
+            
+            <form (ngSubmit)="storePolicy()" >
+                <div class="mb-3">
+
+                    <input type="text"  name="title"  class="form-control" placeholder="title" [(ngModel)]="title">
+
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary">Store</button>
+                </div>
+            </form>
+
+           
+
+        </div>
+    </div>
+</div>
